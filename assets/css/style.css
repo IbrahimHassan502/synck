@@ -274,6 +274,7 @@ img {
 =================================================================== */
 
 .section-subtitle {
+  display: inline-block;
   font-family: var(--font_syne);
   font-size: 14px;
   font-weight: 500;
@@ -1155,7 +1156,7 @@ img {
 .hero-empowerment-area .hero-empowerment-right-content .top-content .mobile {
   display: none;
 }
-.hero-empowerment-area .hero-empowerment-left-content h5 {
+.hero-empowerment-area .hero-empowerment-left-content .section-subtitle {
   margin-bottom: 16px;
 }
 .hero-empowerment-area .hero-empowerment-left-content h1 {
@@ -1403,7 +1404,10 @@ img {
   width: 100%;
   margin: auto;
 }
-.hero-section-wrap .hero-section-content-wrap .hero-section-content h5 {
+.hero-section-wrap
+  .hero-section-content-wrap
+  .hero-section-content
+  .section-subtitle {
   margin-bottom: 30px;
 }
 .hero-section-wrap .hero-section-content-wrap .hero-section-content h1 {
@@ -1639,7 +1643,10 @@ img {
   max-width: 1014px;
   margin-bottom: 135px;
 }
-.hero-service-wrap .hero-section-content-wrap .hero-section-content h5 {
+.hero-service-wrap
+  .hero-section-content-wrap
+  .hero-section-content
+  .section-subtitle {
   font-size: 16px;
   display: inline-block;
   border-radius: 30px;
@@ -2484,7 +2491,7 @@ img {
 .service4-area {
   background: var(--dark1);
 }
-.service4-area .section-header h5 {
+.service4-area .section-header .section-subtitle {
   color: #558bff;
 }
 .service4-area .section-header h1 {
@@ -2847,7 +2854,7 @@ img {
   font-size: 90%;
   top: -5px;
 }
-.pricing-table-box h5 {
+.pricing-table-box .section-subtitle {
   color: var(--dark1);
   font-family: var(--font_yantramanv);
   font-size: 24px;
